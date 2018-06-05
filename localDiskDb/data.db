@@ -1,0 +1,11 @@
+{"$$indexCreated":{"fieldName":"id","unique":true,"sparse":false}}
+{"jsonData":{},"name":"Primer Config","schema":3,"createdAt":1528088572447,"updatedAt":1528088572447,"id":1,"version":"","_id":1}
+{"jsonData":{},"name":"Primer Schema","schema":3,"createdAt":1528088932036,"updatedAt":1528088932036,"id":2,"version":"","_id":2}
+{"$$deleted":true,"_id":2}
+{"jsonData":{},"name":"SegundoSchema","schema":3,"createdAt":1528088932036,"updatedAt":1528088932036,"id":2,"version":"","_id":2}
+{"$$deleted":true,"_id":2}
+{"jsonData":{"baseSchemaProp":"Override Base","schemaBProp":"Override B","server":{"port":"8082","domain":"mi.domain.com"},"sample":{"sampleProp":"Sample Override"},"schemaCProp":"Schema override"},"name":"SegundoSchema","schema":3,"createdAt":1528088932036,"updatedAt":1528088932036,"id":2,"version":"","_id":2}
+{"$$deleted":true,"_id":2}
+{"jsonData":{"baseSchemaProp":"Override Base","schemaBProp":"Override B","server":{"port":"","domain":""},"sample":{"sampleProp":"Sample Override"},"schemaCProp":"Schema override"},"name":"SegundoSchema","schema":3,"createdAt":1528088932036,"updatedAt":1528088932036,"id":2,"version":"","_id":2}
+{"$$deleted":true,"_id":2}
+{"jsonData":{},"name":"SegundoSchema","schema":3,"createdAt":1528088932036,"updatedAt":1528088932036,"id":2,"version":"","_id":2}

@@ -1,0 +1,16 @@
+{"$$indexCreated":{"fieldName":"id","unique":true,"sparse":false}}
+{"jsonData":{"sampleData":"sampleValue"},"name":"Dev Environment","fragmentSchema":1,"createdAt":1528084496143,"updatedAt":1528084496143,"id":1,"version":"","_id":1}
+{"$$deleted":true,"_id":1}
+{"jsonData":{"port":"8081"},"name":"Dev Environment","fragmentSchema":1,"createdAt":1528084496143,"updatedAt":1528084496143,"id":1,"version":"","_id":1}
+{"$$deleted":true,"_id":1}
+{"jsonData":{"port":"8081"},"name":"Dev Environment","fragmentSchema":1,"createdAt":1528084496143,"updatedAt":1528084496143,"id":1,"version":"","_id":1}
+{"$$deleted":true,"_id":1}
+{"jsonData":{"port":"8081","domain":""},"name":"Dev Environment","fragmentSchema":2,"createdAt":1528084496143,"updatedAt":1528084496143,"id":1,"version":"","_id":1}
+{"$$deleted":true,"_id":1}
+{"jsonData":{"sampleProp":"Sample Fragment","port":"8081","domain":""},"name":"Dev Environment","fragmentSchema":1,"createdAt":1528084496143,"updatedAt":1528084496143,"id":1,"version":"","_id":1}
+{"$$deleted":true,"_id":1}
+{"jsonData":{},"name":"Dev Environment","fragmentSchema":2,"createdAt":1528084496143,"updatedAt":1528084496143,"id":1,"version":"","_id":1}
+{"$$deleted":true,"_id":1}
+{"jsonData":{},"name":"Dev Environment","fragmentSchema":1,"createdAt":1528084496143,"updatedAt":1528084496143,"id":1,"version":"","_id":1}
+{"$$deleted":true,"_id":1}
+{"jsonData":{"port":"8081","domain":"dev.domain.com"},"name":"Dev Environment","fragmentSchema":1,"createdAt":1528084496143,"updatedAt":1528084496143,"id":1,"version":"","_id":1}

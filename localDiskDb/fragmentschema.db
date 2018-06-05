@@ -1,0 +1,5 @@
+{"$$indexCreated":{"fieldName":"id","unique":true,"sparse":false}}
+{"jsonSchema":{"title":"Environment","type":"object","properties":{"port":{"type":"string","default":"8080","description":"Port number in wich runs the application"}}},"name":"Environment","baseProp":"server","createdAt":1528079434020,"updatedAt":1528079434020,"id":1,"version":"","_id":1}
+{"jsonSchema":{"title":"SampleFragment","type":"object","properties":{"sampleProp":{"type":"string","default":"Sample Fragment","description":""}}},"name":"Sample Fragment","baseProp":"sample","createdAt":1528079483613,"updatedAt":1528079483613,"id":2,"version":"","_id":2}
+{"$$deleted":true,"_id":1}
+{"jsonSchema":{"title":"Environment","type":"object","properties":{"port":{"title":"Port","type":"string","default":"8080","description":"Port number in wich runs the application"},"domain":{"title":"Domain","type":"string"}}},"name":"Environment","baseProp":"server","createdAt":1528079434020,"updatedAt":1528079434020,"id":1,"version":"","_id":1}

@@ -1,0 +1,12 @@
+{"$$indexCreated":{"fieldName":"id","unique":true,"sparse":false}}
+{"jsonSchema":{"title":"Base Schema","type":"object","properties":{"baseSchemaProp":{"type":"string","default":"Base Default","description":""}}},"name":"Base Schema","createdAt":1528066509471,"updatedAt":1528066509471,"id":1,"version":"","parentSchema":null,"_id":1}
+{"jsonSchema":{"title":"Schema B","type":"object","properties":{"schemaBProp":{"type":"string","default":"BValue","description":""}}},"name":"Schema B","createdAt":1528071568511,"updatedAt":1528071568511,"id":2,"version":"","parentSchema":null,"_id":2}
+{"$$deleted":true,"_id":2}
+{"jsonSchema":{"title":"Schema B","type":"object","properties":{"schemaBProp":{"type":"string","default":"BValue","description":""}}},"name":"Schema B","createdAt":1528071568511,"updatedAt":1528071568511,"id":2,"version":"","parentSchema":null,"_id":2}
+{"$$deleted":true,"_id":2}
+{"jsonSchema":{"title":"Schema B","type":"object","properties":{"schemaBProp":{"type":"string","default":"BValue","description":""}}},"name":"Schema B","createdAt":1528071568511,"updatedAt":1528071568511,"id":2,"version":"","parentSchema":1,"_id":2}
+{"jsonSchema":{"title":"Schema C","type":"object","properties":{"schemaCProp":{"type":"string","default":"","description":""}}},"name":"Schema C","parentSchema":2,"createdAt":1528074269070,"updatedAt":1528074269070,"id":3,"version":"","_id":3}
+{"$$deleted":true,"_id":2}
+{"jsonSchema":{"title":"Schema B","type":"object","properties":{"schemaBProp":{"type":"string","default":"BValue","description":""}}},"name":"Schema B","createdAt":1528071568511,"updatedAt":1528071568511,"id":2,"version":"","parentSchema":1,"_id":2}
+{"$$deleted":true,"_id":2}
+{"jsonSchema":{"title":"Schema B","type":"object","properties":{"schemaBProp":{"type":"string","default":"BValue","description":""}}},"name":"Schema B","createdAt":1528071568511,"updatedAt":1528071568511,"id":2,"version":"","parentSchema":1,"_id":2}
