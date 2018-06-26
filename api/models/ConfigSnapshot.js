@@ -11,6 +11,7 @@ module.exports = {
 
     version: { type: 'string' },
     jsonData: { type: 'json', required: true },
+    changelog: { type: 'string' },
 
     config: {
       model: 'data',

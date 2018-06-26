@@ -43,6 +43,7 @@ async function createSnapsot(config) {
   snapshot.config = config.id
   snapshot.jsonData = config.jsonData
   snapshot.version = config.version
+  snapshot.changelog = config.changelog
 
   await ConfigSnapshot.create(snapshot)
 }
