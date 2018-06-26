@@ -9,6 +9,7 @@ module.exports = {
 
   attributes: {
 
+    identifier: { type: 'string' },
     name: { type: 'string' },
     version: { type: 'string' },
     jsonData: { type: 'json', required: true },
@@ -19,8 +20,29 @@ module.exports = {
     dataFragments: {
       collection: 'dataFragment',
       via: 'datas'
-    }
+    },
+    snapshots: {
+      collection: 'configSnapshot',
+      via: 'config'
+    },
   },
+
+  afterCreate: async (config, proceed) => {
+    await createSnapsot(config)
+    proceed()
+  },
+  afterUpdate: async (config, proceed) => {
+    await createSnapsot(config)
+    proceed()
+  }
 
 };
 
+async function createSnapsot(config) {
+  const snapshot = {}
+  snapshot.config = config.id
+  snapshot.jsonData = config.jsonData
+  snapshot.version = config.version
+
+  await ConfigSnapshot.create(snapshot)
+}

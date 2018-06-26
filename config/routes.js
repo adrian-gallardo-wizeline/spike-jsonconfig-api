@@ -39,7 +39,9 @@ module.exports.routes = {
   *                                                                          *
   ***************************************************************************/
 
-  'GET /schema/fetch-hierarchy/:schemaId': 'Schema.fetchSchemaHierarchy'
+  'GET /schema/fetch-hierarchy/:schemaId': 'Schema.fetchSchemaHierarchy',
+  'GET /config/:configIdentifier': 'ConfigSnapshot.fetchConfiguration',
+  'GET /data/:id/history': 'Data.fetchHistory'
 
   //  ╔═╗╔═╗╦  ╔═╗╔╗╔╔╦╗╔═╗╔═╗╦╔╗╔╔╦╗╔═╗
   //  ╠═╣╠═╝║  ║╣ ║║║ ║║╠═╝║ ║║║║║ ║ ╚═╗
